@@ -1,0 +1,315 @@
+.container-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+}
+.GalaxyFold{
+    text-align: center;
+    width: 450px;
+    z-index: 1;
+}
+.GalaxyFold-Image{
+    width: 35%;
+}
+.text-big-width{
+    width: 600px;
+}
+.container-white{
+    background-color: white;
+}
+.GalaxyS22Ultra-Image{
+    width: 60%;
+    align-self: flex-end;
+}
+.pad-GalaxyS22Ultra{
+    position: relative;
+    right: 10%;
+    bottom: 10%;
+    z-index: 2;
+}
+.GalaxyS21-Image{
+    width: 50%;
+}
+.footer{
+    padding-top: 100px;
+    position: absolute;
+    width: 100vw;
+    max-width:100%;
+    height: 415px;
+    background-color: #4D4D4D;
+    display: flex;
+    justify-content: space-around;
+}
+.text-3{
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.text-4{
+    font-size: 40px;
+    font-weight: 800;
+}
+.text-5{
+    font-weight: 800;
+}
+.text-pos{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+@media all and (max-width: 1300px){
+    .container-1{
+        height: 85vh;
+    }
+}
+@media all and (max-width: 1024px){
+    .name-white {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .description-white{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .price-white{
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .btn-buy-white{
+        width: 50px;
+        height: 30px;
+        font-size: 16px;
+    }
+    .more-info{
+        font-size: 16px;
+    }
+    .container-1{
+        height: 70vh;
+    }
+}
+@media all and (max-width: 768px){
+    .name-white {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .description-white{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .price-white{
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .btn-buy-white{
+        width: 45px;
+        height: 25px;
+        font-size: 14px;
+    }
+    .more-info{
+        font-size: 14px;
+    }
+    .footer{
+        padding-top: 50px;
+        height: 300px;
+    }
+    .container-1{
+        height: 70vh;
+    }
+}
+@media all and (max-width: 625px){
+    .legal{
+        display: none;
+    }
+    .new-buisines{
+        display: none;
+    }
+    .Xiaomi12Pro {
+        height: 170px;
+    }
+    .container-1{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .GalaxyS22Ultra-Image{
+        align-self: center;
+    }
+    .pad-GalaxyS22Ultra{
+        right: 0;
+        bottom: 0;
+    }
+}
+@media all and (max-width: 625px){
+    .container-1{
+        height: 50vh;
+    }
+    .GalaxyFold3{
+        position: relative;
+        top: 50px;
+    }
+    .GalaxyFold p:first-child{
+        font-size: 32px;
+    }
+    .GalaxyFold p:nth-child(2){
+        font-size: 18px;
+    }
+}
+
+
+.galaxy-fold3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    flex-direction: row-reverse;
+
+}
+
+.galaxy-fold3 img {
+    width: 35%;
+}
+
+.galaxy-fold3 .description-wrapper {
+    width: 35%;
+}
+
+.galaxy-fold3 .description-wrapper > p:nth-child(1) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 6rem;
+    color: white;
+    transition: all 250ms linear;
+
+}
+
+.galaxy-fold3 .description-wrapper > p:nth-child(2) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 44px;
+    color: white;
+    transition: all 250ms linear;
+}
+
+.galaxy-fold3 .description-wrapper > p:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 29px;
+    color: white;
+    transition: all 250ms linear;
+}
+
+
+.galaxy-s22ultra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    flex-direction: row-reverse;
+}
+
+.galaxy-s22ultra img {
+    width: 60%;
+    align-self: flex-end;
+}
+
+.galaxy-s22ultra .description-wrapper {
+    width: 600px;
+    position: relative;
+    right: 10%;
+    bottom: 10%;
+    text-align: center;
+    transform: none;
+    z-index: 2;
+}
+
+.galaxy-s22ultra .description-wrapper > p:nth-child(1) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 6rem;
+    color: black;
+    transition: all 250ms linear;
+
+}
+
+.galaxy-s22ultra .description-wrapper > p:nth-child(2) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 44px;
+    color: black;
+    transition: all 250ms linear;
+}
+
+.galaxy-s22ultra .description-wrapper > p:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 29px;
+    color: black;
+    transition: all 250ms linear;
+}
+
+
+.galaxy-s21 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    max-width: 100%;
+    flex-direction: row-reverse;
+    height: 100vh;
+}
+
+.galaxy-s21 img {
+    width: 50%;
+}
+
+.galaxy-s21 .description-wrapper {
+    width: 35%;
+}
+
+.galaxy-s21 .description-wrapper > p:nth-child(1) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 6rem;
+    color: white;
+    transition: all 250ms linear;
+    text-align: center;
+}
+
+.galaxy-s21 .description-wrapper > p:nth-child(2) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 44px;
+    color: white;
+    text-align: center;
+    transition: all 250ms linear;
+}
+
+.galaxy-s21 .description-wrapper > p:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 29px;
+    color: white;
+    text-align: center;
+    transition: all 250ms linear;
+}

@@ -1,0 +1,154 @@
+.huawei-matepad-pro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.huawei-matepad-pro img {
+    width: 55%;
+    align-self: flex-end;
+}
+
+.huawei-matepad-pro .description-wrapper {
+    position: relative;
+    bottom: 10%;
+    width: 640px;
+    text-align: center;
+    z-index: 1;
+}
+
+.huawei-matepad-pro .description-wrapper > p:nth-child(1) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 6rem;
+    color: black;
+    transition: all 250ms linear;
+    text-align: center;
+}
+
+.huawei-matepad-pro .description-wrapper > p:nth-child(2) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 44px;
+    color: black;
+    text-align: center;
+    transition: all 250ms linear;
+}
+
+.huawei-matepad-pro .description-wrapper > p:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 29px;
+    color: black;
+    text-align: center;
+    transition: all 250ms linear;
+}
+
+.huawei-matepad-11 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    flex-direction: row-reverse;
+}
+
+.huawei-matepad-11 img {
+    width: 45%;
+}
+
+.huawei-matepad-11 .description-wrapper {
+    text-align: center;
+    width: 640px;
+    z-index: 1;
+}
+
+.huawei-matepad-11 .description-wrapper > p:nth-child(1) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 6rem;
+    color: white;
+    transition: all 250ms linear;
+    text-align: center;
+}
+
+.huawei-matepad-11 .description-wrapper > p:nth-child(2) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 44px;
+    color: white;
+    text-align: center;
+    transition: all 250ms linear;
+}
+
+.huawei-matepad-11 .description-wrapper > p:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 29px;
+    color: white;
+    text-align: center;
+    transition: all 250ms linear;
+}
+
+.huawei-matepad-paper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.huawei-matepad-paper img {
+    width: 55%;
+    align-self: flex-end;
+}
+
+.huawei-matepad-paper .description-wrapper  {
+    width: 700px;
+    position: relative;
+    right: 5%;
+}
+
+.huawei-matepad-paper .description-wrapper > p:nth-child(1) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 6rem;
+    color: black;
+    transition: all 250ms linear;
+    text-align: center;
+}
+
+.huawei-matepad-paper .description-wrapper > p:nth-child(2) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 44px;
+    color: black;
+    text-align: center;
+    transition: all 250ms linear;
+}
+
+.huawei-matepad-paper .description-wrapper > p:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 29px;
+    color: black;
+    text-align: center;
+    transition: all 250ms linear;
+}

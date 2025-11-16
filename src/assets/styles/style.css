@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: overlay;
+}
+.logo {
+    width: 30px;
+}
+::-webkit-scrollbar{
+    background: transparent;
+    width: 6px;
+    transition: 2s;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(107, 107, 107);
+    border-radius: 6px;
+}
+::-webkit-scrollbar:active{
+    background: transparent;
+    width: 12px;
+}
+@media all and (max-width: 1024px){
+    /* keep global responsive utilities here if needed */
+}
+@media all and (max-width: 625px){
+    .text-1{
+        font-size: 15vw;
+    }
+    .text-sect-2{
+        font-size: 12vw;
+        transition: ease all .5s;
+    }
+}
+/* keep other global breakpoints in component files */

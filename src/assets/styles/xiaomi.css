@@ -1,0 +1,378 @@
+/*sDF*/
+.name-white{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 116px;
+    color: white;
+}
+.description-white{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+}
+.price-white{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+.btn-buy-white{
+    border: none;
+    width: 70px;
+    height: 40px;
+    background-color: #2F71DC;
+    border-radius: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.buy-learnmore{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.black{
+    color: black;
+}
+.black-container{
+    background-color: rgb(0, 0, 0);
+}
+/*sad*/
+.container-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+}
+.Xiaomi12Pro{
+    text-align: center;
+    width: 450px;
+    z-index: 1;
+}
+.Xiaomi12Pro-Image{
+    width: 40%;
+    align-self: flex-end;
+}
+.Xiaomi12-Image{
+    width: 35%;
+}
+.footer{
+    position: relative;
+    padding-top: 100px;
+    width: 100vw;
+    max-width:100%;
+    height: 415px;
+    background-color: #4D4D4D;
+    display: flex;
+    justify-content: space-around;
+}
+.text-3{
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.text-4{
+    font-size: 40px;
+    font-weight: 800;
+}
+.text-5{
+    font-weight: 800;
+}
+.text-pos{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+@media all and (max-width: 1024px){
+    .container-1{
+        height: 60vh;
+    }
+    .name-white {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .description-white{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .price-white{
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .btn-buy-white{
+        width: 50px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 1300px){
+    .container-1{
+        height: 70vh;
+    }
+}
+@media all and (max-width: 768px){
+    .name-white {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .description-white{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .price-white{
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .btn-buy-white{
+        width: 45px;
+        height: 25px;
+        font-size: 14px;
+    }
+    .container-1{
+        flex-wrap: wrap;
+    }
+    .footer{
+        padding-top: 50px;
+        height: 300px;
+    }
+}
+@media all and (max-width: 625px){
+    .legal{
+        display: none;
+    }
+    .new-buisines{
+        display: none;
+    }
+    .container-1 {
+        height: 70vh;
+    }
+}
+
+@media all and (max-width: 500px){
+    .container-1{
+        height: 60vh;
+    }
+}
+@media all and (max-width: 420px){
+    .container-1{
+        height: 55vh;
+    }
+}
+@media all and (max-width: 380px){
+    .container-1{
+        height: 70vh;
+    }
+}
+
+
+
+.xiaomi12-pro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    flex-direction: row-reverse;
+}
+
+.xiaomi12-pro img {
+    width: 40%;
+    align-self: center;
+    margin-top: 10%;
+}
+
+
+.xiaomi12-pro .description-wrapper > p:nth-child(1) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 6rem;
+    color: black;
+    transition: all 250ms linear;
+
+}
+
+.xiaomi12-pro .description-wrapper > p:nth-child(2) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 44px;
+    color: black;
+    transition: all 250ms linear;
+}
+
+.xiaomi12-pro .description-wrapper > p:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 29px;
+    color: black;
+    transition: all 250ms linear;
+}
+
+.xiaomi12-pro .description-wrapper {
+    text-align: center;
+    width: 450px;
+    z-index: 1;
+}
+
+.xiaomi12 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.xiaomi12 img {
+    width: 35%;
+}
+
+.xiaomi12 .description-wrapper > p:nth-child(1) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 6rem;
+    color: white;
+    transition: all 250ms linear;
+
+}
+
+.xiaomi12 .description-wrapper > p:nth-child(2) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 44px;
+    color: white;
+    transition: all 250ms linear;
+}
+
+.xiaomi12 .description-wrapper > p:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 29px;
+    color: white;
+    transition: all 250ms linear;
+}
+
+.xiaomi12 .description-wrapper {
+    text-align: center;
+    width: 450px;
+    z-index: 1;
+}
+
+.xiaomi11-lite {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    max-width: 100%;
+    flex-direction: row-reverse;
+    height: 100vh;
+}
+
+.xiaomi11-lite img {
+    width: 40%;
+    align-self: flex-end;
+}
+
+.xiaomi11-lite .description-wrapper {
+    text-align: center;
+    width: 450px;
+    z-index: 1;
+}
+
+.xiaomi11-lite .description-wrapper > p:nth-child(1) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 6rem;
+    color: black;
+    transition: all 250ms linear;
+
+}
+
+.xiaomi11-lite .description-wrapper > p:nth-child(2) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 44px;
+    color: black;
+    transition: all 250ms linear;
+}
+
+.xiaomi11-lite .description-wrapper > p:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 29px;
+    color: black;
+    transition: all 250ms linear;
+}
+
+.redmi10 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.redmi10 img {
+    width: 35%;
+}
+
+.redmi10 .description-wrapper {
+    text-align: center;
+    width: 450px;
+    z-index: 1;
+}
+
+.redmi10 .description-wrapper > p:nth-child(1) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 6rem;
+    color: white;
+    transition: all 250ms linear;
+
+}
+
+.redmi10 .description-wrapper > p:nth-child(2) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 44px;
+    color: white;
+    transition: all 250ms linear;
+}
+
+.redmi10 .description-wrapper > p:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 29px;
+    color: white;
+    transition: all 250ms linear;
+}

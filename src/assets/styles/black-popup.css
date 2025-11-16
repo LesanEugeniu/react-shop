@@ -1,0 +1,38 @@
+.first{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+    animation-duration: 2s;
+    animation-name: first;
+}
+@keyframes first {
+    0%   {background-color: rgb(0, 0, 0);}
+    90% {background-color: rgb(0, 0, 0);}
+    100% {background-color: rgba(0, 0, 0, 0);}
+  }
+.logo-first{
+    width: 200px;
+    height: 200px;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
+    animation-name: logo-first;
+    opacity: 0;
+}
+@keyframes logo-first {
+    0%   {opacity: 0;}
+    50%   {opacity: 1;}
+    100% {opacity: 0;}
+  }
+
+  .nonactive{
+    display: none;
+}

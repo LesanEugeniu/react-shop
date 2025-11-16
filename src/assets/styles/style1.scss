@@ -1,0 +1,19 @@
+.scroll-down {
+	nav {
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+.scroll-up {
+	nav {
+		filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+	}
+}
+
+.menu-is-open {
+	overflow: hidden;
+
+	nav {
+		filter: none;
+	}
+}

@@ -1,0 +1,138 @@
+
+.toast-wrapper {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  z-index: 99999;
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
+  transition: all 0.45s cubic-bezier(0.25, 0.1, 0.15, 1);
+}
+
+.toast-wrapper.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.toast-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  background: rgba(18, 18, 18, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
+  padding: 16px 22px;
+  border-radius: 18px;
+  box-shadow: 0px 8px 30px rgba(0,0,0,0.25);
+
+  border: 1px solid rgba(255,255,255,0.05);
+
+  animation: toastPop 0.45s ease forwards;
+}
+
+@keyframes toastPop {
+  0%   { transform: translateY(-18px) scale(0.96); opacity: 0; }
+  100% { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+.toast-icon {
+  background: #4ade80;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 4px 12px rgba(74, 222, 128, 0.4);
+}
+
+.toast-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.toast-title {
+  margin: 0;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.toast-desc {
+  margin: 0;
+  margin-top: 2px;
+  font-size: 13.5px;
+  color: #dcdcdc;
+}
+
+.toast-card,
+.toast-title,
+.toast-desc {
+  font-family: "Inter", sans-serif;
+}
+
+.toast-title {
+  margin: 0;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+
+.toast-desc {
+  margin: 0;
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #d6d6d6;
+  letter-spacing: -0.1px;
+}
+
+
+.toast-stack {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 99999;
+}
+
+.toast-wrapper {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.35s ease;
+}
+
+.toast-wrapper.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.toast-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #111;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 12px;
+  min-width: 260px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+}
+
+.toast-title {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.toast-desc {
+  font-size: 14px;
+  opacity: 0.85;
+}
